@@ -22,7 +22,9 @@ const headers = {
   'Access-Control-Allow-Origin': '*'
 };
 
-axios.get(urlString, { headers , mode: 'no-cors',})
+
+
+axios.get(urlString, {  mode: 'no-cors',})
   .then(response => {
     console.log(response.data);
   })
